@@ -94,7 +94,7 @@ namespace TrackerLibrary
             int output = 1;
             int val = 2; 
 
-            while(teamCount < val)
+            while(teamCount > val)
             {
                 output += 1;
                 val *= 2;
