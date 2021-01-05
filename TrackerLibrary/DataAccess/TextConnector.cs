@@ -14,6 +14,11 @@ namespace TrackerLibrary.DataAccess
         private const string PeopleFile = "PersonModels.csv";
         private const string TeamFile = "TeamModel.csv";
 
+        public void CompleteTournament(TournamentModel model)
+        {
+            throw new NotImplementedException();
+        }
+
         public void CreatePerson(PersonModel model)
         {
             List<PersonModel> people = PeopleFile.FullFilePath().LoadFile().ConvertToPersonModels();
