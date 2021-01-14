@@ -1,2 +1,2 @@
 # TournamentTracker
-Aplication for tracking a tournament 
+Tournament tracker application with WinForm UI. 
